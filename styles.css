@@ -1,0 +1,75 @@
+@import "http://fonts.googleapis.com/css?family=Cabin&subset=latin,latin-ext";
+
+* {
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #dee2e2;
+}
+
+.app,
+.contactsList {
+    padding: 0;
+    margin: 10px auto;
+    width: 80vw;
+    max-width: 700px;
+}
+
+.contactItem {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 15px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.contactImage {
+    width: 20%;
+    min-width: 100px;
+    margin: 4px 10px 4px 4px;
+    float: left;
+}
+
+.contactForm {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+    background-color: #a5adba;
+}
+
+.contactForm input,
+.contactForm button {
+    width: 40%;
+    font-size: 20px;
+    margin: 0px 5px 5px 5px;
+    padding: 2px;
+}
+
+.contactForm button {
+    background-color: #0a2859;
+    color: white;
+}
+
+.contactForm button:hover {
+    background-color: #2158b3;
+}
+
+.contactForm button:focus {
+    background-color: #8d9fbc;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000033;
+}
+
+a:active {
+    color: red;
+}
